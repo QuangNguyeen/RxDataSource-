@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "28836637-A60A-4AC4-8B28-5A2CF14C7819"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "490749B1-4B93-4FA0-A868-657F9C4139DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodApp Rx/View/RecipeList/RecipeListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "RecipeListViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "490749B1-4B93-4FA0-A868-657F9C4139DD - 75352e9f6428d604"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodApp_Rx.RecipeListViewController.__deallocating_deinit"
+                  moduleName = "FoodApp Rx"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quangnguyen/Desktop/XCode/FoodApp%20Rx/FoodApp%20Rx/View/RecipeList/RecipeListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "490749B1-4B93-4FA0-A868-657F9C4139DD - e9f993c2c87e6bd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodApp_Rx.RecipeListViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FoodApp_Rx.RecipeListViewController"
+                  moduleName = "FoodApp Rx"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quangnguyen/Desktop/XCode/FoodApp%20Rx/FoodApp%20Rx/View/RecipeList/RecipeListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "490749B1-4B93-4FA0-A868-657F9C4139DD - f27c690c0b279f83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodApp_Rx.RecipeListViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FoodApp_Rx.RecipeListViewController"
+                  moduleName = "FoodApp Rx"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quangnguyen/Desktop/XCode/FoodApp%20Rx/FoodApp%20Rx/View/RecipeList/RecipeListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "282">
+               </Location>
+               <Location
+                  uuid = "490749B1-4B93-4FA0-A868-657F9C4139DD - 1e20d0424d452fe1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodApp_Rx.RecipeListViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FoodApp_Rx.RecipeListViewController&gt;"
+                  moduleName = "FoodApp Rx"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quangnguyen/Desktop/XCode/FoodApp%20Rx/FoodApp%20Rx/View/RecipeList/RecipeListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "490749B1-4B93-4FA0-A868-657F9C4139DD - ed847cbf1907bbde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodApp_Rx.RecipeListViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FoodApp_Rx.RecipeListViewController&gt;"
+                  moduleName = "FoodApp Rx"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/quangnguyen/Desktop/XCode/FoodApp%20Rx/FoodApp%20Rx/View/RecipeList/RecipeListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "223">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

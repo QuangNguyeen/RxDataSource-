@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="220" id="KGk-i7-Jjw" customClass="RecipeListTableViewCell" customModule="FoodApp_Rx" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="602" height="224"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="602" height="224"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aIZ-rh-iui">
+                        <rect key="frame" x="0.0" y="0.0" width="602" height="121.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="Quz-1E-MWT">
+                                <rect key="frame" x="20" y="20" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="2Vu-ku-asN"/>
+                                    <constraint firstAttribute="width" constant="150" id="4XA-Go-kAr"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gxa-BA-kZG">
+                                <rect key="frame" x="190" y="20" width="392" height="81.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHr-il-y5t">
+                                        <rect key="frame" x="0.0" y="0.0" width="392" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E9M-Se-3Tk">
+                                        <rect key="frame" x="0.0" y="30.5" width="392" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mxa-Fa-Fnz">
+                                        <rect key="frame" x="0.0" y="61" width="392" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Quz-1E-MWT" firstAttribute="top" secondItem="aIZ-rh-iui" secondAttribute="top" constant="20" id="ZyL-Q8-EWy"/>
+                            <constraint firstAttribute="bottom" secondItem="gxa-BA-kZG" secondAttribute="bottom" constant="20" id="fKB-bF-yrh"/>
+                            <constraint firstItem="Quz-1E-MWT" firstAttribute="leading" secondItem="aIZ-rh-iui" secondAttribute="leading" constant="20" id="i2h-F8-rZ9"/>
+                            <constraint firstItem="gxa-BA-kZG" firstAttribute="top" secondItem="aIZ-rh-iui" secondAttribute="top" constant="20" id="qbO-D6-RFQ"/>
+                            <constraint firstAttribute="bottom" secondItem="Quz-1E-MWT" secondAttribute="bottom" constant="20" id="qt5-St-keL"/>
+                            <constraint firstAttribute="trailing" secondItem="gxa-BA-kZG" secondAttribute="trailing" constant="20" id="wyp-rB-2Dy"/>
+                            <constraint firstItem="gxa-BA-kZG" firstAttribute="leading" secondItem="Quz-1E-MWT" secondAttribute="trailing" constant="20" id="xan-ne-S0o"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="aIZ-rh-iui" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="9y8-zQ-1C5"/>
+                    <constraint firstAttribute="trailing" secondItem="aIZ-rh-iui" secondAttribute="trailing" id="ogF-aM-pjb"/>
+                    <constraint firstAttribute="bottom" secondItem="aIZ-rh-iui" secondAttribute="bottom" id="ry1-Ef-Oai"/>
+                    <constraint firstItem="aIZ-rh-iui" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="vxP-an-3rA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="caloriesLable" destination="E9M-Se-3Tk" id="JL6-sF-CJh"/>
+                <outlet property="isVegetableLabel" destination="mxa-Fa-Fnz" id="Xtd-gv-Xdc"/>
+                <outlet property="nameLabel" destination="WHr-il-y5t" id="cBc-qZ-EV0"/>
+                <outlet property="recipeImage" destination="Quz-1E-MWT" id="wWt-u5-2LA"/>
+            </connections>
+            <point key="canvasLocation" x="340.57971014492756" y="164.0625"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="apple" width="700" height="800"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
